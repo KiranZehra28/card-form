@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body>
+
+    <form>
+        <h1>
+            CREDIT CARD DETAILS
+        </h1>
+        <hr>
+
+        <div>
+            <label> Card Type </label>
+            <input name ="type" type="radio"> MasterCard </input>
+            <input name ="type" type="radio"> VISA </input>
+            <input name ="type" type="radio"> Discover </input>
+            <input name ="type" type="radio"> AMEX </input>
+            <input name ="type" type="radio"> Other </input>
+        </div>
+
+        <div>
+            <label> Full Name </label>
+            <input class="input" type="text" minlength="3" required>
+        </div>
+
+        <div>
+            <label> Card Owner Name </label>
+            <input class="input" type="text" minlength="3" required>
+        </div>
+
+        <div>
+            <label> Card Number </label>
+            <input class="input" type="number" minlength="8" required>
+        </div>
+
+        <div>
+            <label> Passcode </label>
+            <input class="input" type="password" minlength="4" required>
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+    
+</body>
+</html>
